@@ -1,0 +1,36 @@
+{
+    "name": "ghost-storage-cloudflare-r2",
+    "description": "A simple custom storage adapter to add Cloudflare R2 object storage support for Ghost through S3 API.",
+    "version": "1.0.0",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/cinntiq/ghost-storage-cloudflare-r2.git"
+    },
+    "private": false,
+    "keywords": [
+        "cloudflare-r2",
+        "ghost-cms",
+        "ghost-storage-adapter"
+    ],
+    "author": {
+        "email": "cinntiq@gmail.com",
+        "name": "Cinntiq"
+    },
+    "homepage": "https://github.com/cinntiq/ghost-storage-cloudflare-r2#readme",
+    "bugs": {
+        "url": "https://github.com/cinntiq/ghost-storage-cloudflare-r2/issues"
+    },
+    "license": "MIT",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "dependencies": {
+        "@aws-sdk/client-s3": "^3.627.0",
+        "@aws-sdk/lib-storage": "^3.627.0",
+        "date-fns": "^3.6.0",
+        "ghost-storage-base": "^1.0.0",
+        "sharp": "^0.33.4",
+        "uuid": "^10.0.0"
+    }
+}
